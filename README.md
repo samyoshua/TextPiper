@@ -22,6 +22,10 @@ for text in TextPiper(texts, pipeline=[lambda x: x.casefold()]):
 >> "hello world"
 ```
 
+## Testing
+
+Unit tests can be found in the `tests` directory and can be run using `pytest`.
+
 ## TODO:
 
 - Add multiprocessing
