@@ -1,6 +1,6 @@
 # TextPiper
 
-This is a really simple base class to preprocess text. The built in processors are minimal and have no additional requirements. The built-in functions can be seen in `processors.py` and are set as a default pipeline. All expect a string as an input and output a string except tokenize (so tokenization should be left until the end of the pipeline if used).
+This is a really simple base class to preprocess text. The built-in processors are minimal and have no additional requirements. The built-in functions can be seen in `processors.py` and are set as a default pipeline. All expect a string as an input and output a string except tokenize (so tokenization should be left until the end of the pipeline if used).
 
 The default pipeline is:
  - `casefold` (lowercase)
